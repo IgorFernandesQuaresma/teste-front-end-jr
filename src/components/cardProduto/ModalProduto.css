@@ -1,0 +1,122 @@
+.popup-content {
+    padding-bottom: 2rem;
+
+}
+
+.container_modal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.container_modal-img {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    align-items: center; 
+
+}
+
+.container_modal-img img {
+    width: 247px;
+    height: 192px;
+}
+
+#contador {
+    display: flex;
+    flex-direction: row;
+    width: 110px;
+    height: 36px;
+    justify-content: space-around;
+    align-items: center; 
+    border: 1px solid var(--cor-cinza);
+    gap: 16px;
+    border-color: #041E50;
+    color: #041E50
+}
+
+#contador h1 {
+    margin: 0; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    color: #041E50
+}
+
+.container_modal-textos h1 {
+    
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    color: #041E50
+}
+
+.container_modal-textos h2 {
+    color: #041E50;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.container_modal-textos p {
+    color: #041E50;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+#contador button {
+    width: 30%;
+    color: var(--cor-cinza);
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    background-color: transparent;
+    border: none;
+}
+
+
+.container_modal-button {
+    margin-top: 15px;
+    width: 225px;
+    height: 44px;
+    border-radius: 4px; 
+    border: none; 
+    background-color: var(--cor-rosa); 
+    color: white; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.container_modal-button:hover {
+    opacity: 0.9;
+}
+
+.button_modal {
+    width: 245px;
+    height: 45px;
+    border-radius: 5px; 
+    border: none; 
+    background-color: var(--cor-rosa); 
+    color: white; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 14px;
+    box-shadow: 8px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.button_modal:hover {
+    opacity: 0.9;
+}

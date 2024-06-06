@@ -1,0 +1,213 @@
+
+.container_relacionados_lista {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    overflow: hidden; 
+    
+}
+
+.container__relacionados__titulo {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    color: var(--cor-rosa);
+}
+.container_relacionados_lista-ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+.container_relacionados_lista-li {
+    flex: 1; 
+    text-align: center;
+    font-size: 16px;
+    color: #3B3B3B;
+    border: 1px solid var(--cor-cinza);   
+}
+.container_relacionados_lista-li h2{
+    flex: 1; 
+    text-align: center; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #3B3B3B;    
+}
+
+.container_relacionados_lista-li h2:hover{
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--cor-rosa);
+    
+}
+
+.container_relacionados_card {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+}
+
+
+
+.container_parceiros {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 70px;
+}
+
+.container_parceiros-item {
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.85) 85%), url('../../assets/LojaBanner.png'); 
+    width: 574px;
+    height: 350px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 20px;
+    margin-bottom: 60px;
+}
+
+.container_parceiros-item-textos {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-bottom: 10px;
+
+}
+.container_parceiros-item-textos h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 40px;
+    color: white;
+}
+
+.container_parceiros-item-textos p {
+    width: 60%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: white;
+    line-height: 25px;
+}
+
+
+#button_parceiros {
+    width: 131px;
+    height: 48px;
+    border-radius: 5px; 
+    border: none; 
+    background-color: var(--cor-rosa); 
+    color: white; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+}
+
+#button_parceiros:hover {
+    opacity: 0.9;
+}
+
+.container__relacionados-novaSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container__relacionados__verTudo {
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 15px;
+    color: #3F3F40,
+            
+
+}
+
+.container_parceiros2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 70px;
+}
+
+.container_parceiros2-item {
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.85) 85%), url('../../assets/LojaBanner.png'); 
+    width: 589px;
+    height: 284px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 20px;
+    margin-bottom: 60px;
+}
+
+.container_parceiros2-item-textos {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-bottom: 10px;
+
+}
+.container_parceiros2-item-textos h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 40px;
+    color: white;
+}
+
+.container_parceiros2-item-textos p {
+    width: 60%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: white;
+    line-height: 25px;
+}
+
+
+#button_parceiros2 {
+    width: 131px;
+    height: 48px;
+    border-radius: 5px; 
+    border: none; 
+    background-color: var(--cor-rosa); 
+    color: white; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+}
+
+#button_parceiros2:hover {
+    opacity: 0.9;
+}
